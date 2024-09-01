@@ -1,0 +1,737 @@
+/* Стили для главной страницы */
+
+#main {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 60%;
+	margin-left: 3%;
+}
+
+/* Стили для левого блока */
+
+aside {
+	float: left;
+	margin-top: 20px;
+	width: 30%;
+	margin-left: 2%;
+}
+
+#courses {
+	float: left;
+	width: 90%;
+}
+
+.course {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1 em;
+	color: #646464;
+}
+
+.course>img {
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+	width: 35%;
+	float: left;
+	margin-right: 10px;
+}
+
+.course>span {
+	width: 45%;
+	float: right;
+	font-weight: bold;
+	color: #333;
+}
+
+/* Стили для кнопки */
+
+#courses>a>.btn {
+	float: left;
+	margin-left: 30%;
+}
+
+/* Стили для блока рекламы */
+
+#one_course {
+	float: left;
+	margin-top: 20px;
+}
+
+#one_course>img {
+	width: 80%;
+	float: left;
+}
+
+#one_course>p {
+   font-weight: lighter;
+	font-size: 1em;
+	font-family: 'Roboto Slab', serif;
+}
+
+#one_course>a>.btn {
+	float: left;
+	margin-left: 30%;
+}
+
+/* Стили для оглавления */
+
+.heading {
+	font-weight: lighter;
+	font-size: 1.2em;
+	font-family: 'Roboto Slab', serif;
+	border-bottom: 2px solid #e7a94e;
+	float:left;
+	color:#4f4f4f;
+	padding: 0px 5px;
+}
+
+.heading:first-letter {
+	color: #e7a94e;
+}
+
+/* Стили для блока news */
+
+#news {
+	margin-left: 10%;
+	width: 90%;
+	float: left;
+}
+
+/* Стили для статьи */
+
+.article {
+	width: 40%;
+	float: left;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	box-sizing: border-box;
+	max-width: 350px;
+	border-radius: 5px;
+}
+
+.article>img {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+	/* height: 150px; */
+}
+
+.article>span {
+	font-family: 'Roboto Slab', serif;
+	font-size:1em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color: #333;
+}
+
+/* Стили для кнопки */
+
+#news>a>.btn {
+	margin-bottom: 20 px;
+	float: left;
+	margin-left: 30%;
+}
+
+/* Стили для аддаптивности */
+
+@media (min-width: 1051px) {
+
+#main {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 60%;
+	margin-left: 3%;
+}
+
+/* Стили для левого блока */
+
+aside {
+	float: left;
+	margin-top: 20px;
+	width: 30%;
+	margin-left: 2%;
+}
+
+#courses {
+	float: left;
+	width: 90%;
+}
+
+.course {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2em;
+	color: #646464;
+}
+
+.course>img {
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+	width: 50%;
+	float: left;
+	margin-right: 10px;
+}
+
+.course>span {
+	float: right;
+	font-weight: bold;
+	color: #333;
+}
+
+/* Стили для кнопки */
+
+#courses>a>.btn {
+	float: left;
+	margin-left: 30%;
+}
+
+/* Стили для блока рекламы */
+
+#one_course {
+	float: left;
+	margin-top: 20px;
+}
+
+#one_course>img {
+	width: 80%;
+	float: left;
+}
+
+/* Стили для оглавления */
+
+.heading {
+	font-weight: lighter;
+	font-size: 1.2em;
+	font-family: 'Roboto Slab', serif;
+	border-bottom: 2px solid #e7a94e;
+	float:left;
+	color:#4f4f4f;
+	padding: 0px 5px;
+}
+
+.heading:first-letter {
+	color: #e7a94e;
+}
+
+/* Стили для блока news */
+
+#news {
+	margin-left: 10%;
+	width: 90%;
+	float: left;
+}
+
+/* Стили для статьи */
+
+.article {
+	width: 40%;
+	float: left;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	box-sizing: border-box;
+	max-width: 350px;
+	border-radius: 5px;
+}
+
+.article>img {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+	/* height: 150px; */
+}
+
+.article>span {
+	font-family: 'Roboto Slab', serif;
+	font-size:1em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color: #333;
+}
+
+/* Стили для кнопки */
+
+#news>a>.btn {
+	margin-bottom: 20 px;
+	float: left;
+	margin-left: 30%;
+}
+}
+
+@media (max-width: 1051px) and (min-width: 911px)  {
+	
+	#main {
+	width: 90%;
+	margin-left: 10%;	
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Стили для левого блока */
+
+aside {
+	width: 70%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15%;
+}
+
+#courses {
+	float: left;
+	width: 90%;
+}
+
+.course {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2em;
+	color: #646464;
+}
+
+.course>img {
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+	width: 50%;
+	float: left;
+	margin-right: 10px;
+}
+
+.course>span {
+	float: right;
+	font-weight: bold;
+	color: #333;
+}
+
+/* Стили для кнопки */
+
+#courses>a>.btn {
+	float: left;
+	margin-left: 45%;
+}
+
+/* Стили для блока рекламы */
+
+#one_course {
+	float: left;
+	margin-top: 20px;
+}
+
+#one_course>img {
+	width: 80%;
+	float: left;
+}
+
+#one_course>p {
+   font-weight: lighter;
+	font-size: 1em;
+	font-family: 'Roboto Slab', serif;
+}
+
+#one_course>a>.btn {
+	float: left;
+	margin-left: 35%;
+}
+
+/* Стили для оглавления */
+
+.heading {
+	font-weight: lighter;
+	font-size: 1.2em;
+	font-family: 'Roboto Slab', serif;
+	border-bottom: 2px solid #e7a94e;
+	float:left;
+	color:#4f4f4f;
+	padding: 0px 5px;
+}
+
+.heading:first-letter {
+	color: #e7a94e;
+}
+
+/* Стили для блока news */
+
+#news {
+	margin-left: 5%;
+	width: 90%;
+	float: left;
+}
+
+/* Стили для статьи */
+
+.article {
+	width: 40%;
+	float: left;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	box-sizing: border-box;
+	max-width: 350px;
+	border-radius: 5px;
+}
+
+.article>img {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+	/* height: 150px; */
+}
+
+.article>span {
+	font-family: 'Roboto Slab', serif;
+	font-size:1em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color: #333;
+}
+
+/* Стили для кнопки */
+
+#news>a>.btn {
+	margin-bottom: 20 px;
+	float: left;
+	margin-left: 35%;
+}
+}
+
+@media (max-width: 910px) and (min-width: 500px) {
+	
+	#main {
+	width: 90%;
+	margin-left: 10%;	
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Стили для левого блока */
+
+aside {
+	width: 80%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15%;
+}
+
+#courses {
+	float: left;
+	width: 90%;
+}
+
+.course {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2em;
+	color: #646464;
+}
+
+.course>img {
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+	width: 50%;
+	float: left;
+	margin-right: 10px;
+}
+
+.course>span {
+	float: right;
+	font-weight: bold;
+	color: #333;
+}
+
+/* Стили для кнопки */
+
+#courses>a>.btn {
+	float: left;
+	margin-left: 40%;
+}
+
+/* Стили для блока рекламы */
+
+#one_course {
+	float: left;
+	margin-top: 20px;
+}
+
+#one_course>img {
+	width: 80%;
+	float: left;
+}
+
+#one_course>p {
+   font-weight: lighter;
+	font-size: 1em;
+	font-family: 'Roboto Slab', serif;
+}
+
+#one_course>a>.btn {
+	float: left;
+	margin-left: 35%;
+}
+
+/* Стили для оглавления */
+
+.heading {
+	font-weight: lighter;
+	font-size: 1.2em;
+	font-family: 'Roboto Slab', serif;
+	border-bottom: 2px solid #e7a94e;
+	float:left;
+	color:#4f4f4f;
+	padding: 0px 5px;
+}
+
+.heading:first-letter {
+	color: #e7a94e;
+}
+
+/* Стили для блока news */
+
+#news {
+	margin-left: 5%;
+	width: 90%;
+	float: left;
+}
+
+/* Стили для статьи */
+
+.article {
+	width: 40%;
+	float: left;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	box-sizing: border-box;
+	max-width: 350px;
+	border-radius: 5px;
+}
+
+.article>img {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+	/* height: 150px; */
+}
+
+.article>span {
+	font-family: 'Roboto Slab', serif;
+	font-size:1em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color: #333;
+}
+
+/* Стили для кнопки */
+
+#news>a>.btn {
+	margin-bottom: 20 px;
+	float: left;
+	margin-left: 35%;
+}
+}
+
+/* Для аддаптивности */ 
+/*
+ @media (min-width: 1051px) {
+	#main {
+	width: 60%;
+	margin-left: 3%;
+	
+}
+
+aside {
+	width: 30%;
+	margin-left: 2%;
+	
+}
+
+#news {
+	margin-left: 5%;
+	width: 90%;
+	}
+} 
+
+@media (max-width: 1051px) and (min-width: 911px)  {
+	#main {
+	width: 65%;
+	margin-left: 2%;
+	
+}
+
+aside {
+	width: 32%;
+	
+}
+
+#news {
+	margin-left: 4%;
+	width: 96%;
+	}
+}
+
+@media (max-width: 910px) and (min-width: 500px) {
+	#main {
+	width: 90%;
+	margin-left: 5%;
+	
+}
+
+aside {
+	width: 50%;
+	margin-left: 25%;
+	
+}
+
+#news {
+	margin-left: 4%;
+	width: 96%;
+	}
+}
+
+@media (min-width: 499px) {
+	#main {
+	width: 90%;
+	margin-left: 5%;
+	
+}
+
+aside {
+	width: 80%;
+	margin-left: 10%;
+	
+}
+
+#news {
+	margin-left: 4%;
+	width: 96%;
+	}
+}
+
+@media (min-width: 1220px) {
+	.article {
+	width: 40%;
+	margin-right: 10%;
+	}
+}
+
+@media (max-width: 1219px) and (min-width: 911) {
+	.article {
+	width: 46%;
+	margin-right: 4%;
+	}
+}
+
+@media (max-width: 1219px) and (min-width: 650) {
+	.article {
+	width: 45%;
+	margin-right: 5%;
+	}
+}
+
+@media (max-width: 649px) and (min-width: 500) {
+	.article {
+	width: 70%;
+	margin-left: 15%;
+	}
+}
+
+@media (max-width: 499px) {
+	.article {
+	width: 90%;
+	margin-left: 5%;
+	}
+}
+
+@media (max-width: 600px) {
+	#courses a>.btn {
+	margin-left: 5%!important;
+	}
+}
+
+@media (max-width: 440px) {
+	#news a>.btn {
+	margin-left: 5%!important;
+	}
+} 
+*/
+
+/* Нижняя часть сайта */
+
+#subscribe {
+	float: left;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 911px) {
+	#subscribe {
+		width: 70%;
+	}
+	
+	#sub_to_progect {
+		width: 25%;
+}
+
+}
+
+@media (max-width: 910px) {
+	#subscribe {
+		width:100%;
+	}
+	
+    #sub_to_progect {
+		width: 80%;
+		margin-left: 10%;
+    }
+}
+  
+#subscribe>span {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5em;
+	color: #434343;
+}	
+ 
+#vk_auth {
+	margin: auto;
+}
+
+
+#sub_to_progect {
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 5%;
+}
+
+/*
+#sub_to_progect>p {
+	width: 100%;
+	color: #333;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+}
+
+#sub_to_progect>a>.btn {
+	background-color: #21a7e1;
+	border-bottom-color; #1999d1;
+	float: left;
+	text-align; center;
+} */
